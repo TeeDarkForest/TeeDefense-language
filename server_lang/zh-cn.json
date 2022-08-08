@@ -1,0 +1,494 @@
+{"translation": 
+    [
+        {
+    		"key": "Language successfully switched to English",
+    		"value": "语言成功切换为中文"
+    	},
+        {
+            "key": "Unknown language or no input language code",
+            "value": "未知语言或没有输入语言代码"
+        },
+        {
+            "key": "Available languages: {str:ListOfLanguage}",
+            "value": "可用语言: {str:ListOfLanguage}"
+        },
+        {
+            "key": "'{str:PlayerName}' entered and joined the {str:Team}",
+            "value": "'{str:PlayerName}' 进入服务器并加入 {str:Team}"
+        },
+        {
+            "key": "'{str:PlayerName}' has left the game ({str:Reason})",
+            "value": "'{str:PlayerName}' 离开了游戏 ({str:Reason})"
+        },
+        {
+            "key": "'{str:PlayerName}' has left the game",
+            "value": "'{str:PlayerName}' 离开了游戏"
+        },
+        {
+            "key": "Spectators aren't allowed to start a vote.",
+            "value": "旁观者不能提出一个投票."
+        },
+        {
+            "key": "Wait for current vote to end before calling a new one.",
+            "value": "等待当前投票结束后再提出新的投票."
+        },
+        {
+            "key": "Vote aborted",
+            "value": "投票中止"
+        },
+        {
+            "key": "Vote passed",
+            "value": "投票通过"
+        },
+        {
+            "key": "Vote failed",
+            "value": "投票否决"
+        },
+        {
+            "key":  "admin forced server option '{str:O}' ({str:R})",
+            "value":  "管理员修改了服务器设置 '{str:O}' ({str:R})"
+        },
+        {
+            "key": "admin moved '{str:N}' to spectator ({str:R})",
+            "value": "管理员将 '{str:N}' 移到旁观 ({str:R})"
+        },
+        {
+            "key": "admin forced vote yes",
+            "value": "管理员强制为投票执行通过"
+        },
+        {
+            "key": "admin forced vote no",
+            "value": "管理员强制为投票执行否决"
+        },
+        {
+            "key": "You must wait {str:Time} seconds before making another vote",
+            "value": "你必须等待 {str:Time} 秒才能再次提出另一个投票"
+        },
+        {
+            "key": "'{str:PlayerName}' called vote to change server option '{str:Option}' (str:Reason)",
+            "value": "'{str:PlayerName}' 提议修改服务器设置 '{str:Option}' (str:Reason)"
+        },
+        {
+            "key": "'{str:Option}' isn't an option on this server",
+            "value": "'{str:Option}' 在此服务器上并不是一个设置"
+        },
+        {
+            "key": "Server does not allow voting to kick players",
+            "value": "服务器不允许投票踢出玩家"
+        },
+        {
+            "key": "Kick voting requires {str:Num} players on the server",
+            "value": "在这个服务器上开始踢出的投票需要{str:Num}名玩家"
+        },
+        {
+            "key": "Invalid client id to kick",
+            "value": "缺少要踢出的客户端ID"
+        },
+        {
+            "key": "You can't kick yourself",
+            "value": "你不能踢出你自己"
+        },
+        {
+            "key": "You can't kick admins",
+            "value": "你不能踢出管理员"
+        },
+        {
+            "key": "'{str:Player}' called for vote to kick you",
+            "value": "'{str:Player}' 提议踢出你"
+        },
+        {
+            "key": "'{str:P1}' called for vote to kick '{str:P2}' ({str:R})",
+            "value": "'{str:P1}' 提议踢出 '{str:P2}' ({str:R})"
+        },
+        {
+            "key": "Server does not allow voting to move players to spectators",
+            "value": "服务器不允许投票移动玩家到旁观"
+        },
+        {
+            "key": "Invalid client id to move",
+            "value": "缺少要移动的客户端ID"
+        },
+        {
+            "key": "You can't move yourself",
+            "value": "你不能移动你自己"
+        },
+        {
+            "key": "'{str:P1}' called for vote to move '{str:P2}' to spectators ({str:R})",
+            "value": "'{str:P1}' 提议将 '{str:P2}' 移到旁观 ({str:R})"
+        },
+        {
+            "key": "Teams are locked",
+            "value": "队伍已经锁定"
+        },
+        {
+            "key": "Teams were swapped",
+            "value": "队伍交换"
+        },
+        {
+            "key": "Teams were locked",
+            "value": "队伍锁定"
+        },
+        {
+            "key": "Teams were unlocked",
+            "value": "队伍解锁"
+        },
+        {
+            "key": "Teams must be balanced, please join other team",
+            "value": "队伍人数必须均衡，请加入另一个队伍"
+        },
+        {
+            "key": "Only {str:ID} active players are allowed",
+            "value": "只允许 {str:ID} 名玩家游玩"
+        },
+        {
+            "key": "Invalid spectator id used",
+            "value": "该旁观者ID没有被使用"
+        },
+        {
+            "key": "'{str:Old}' changed name to '{str:New}'",
+            "value": "'{str:Old}' 改名叫 '{str:New}'"
+        },
+        {
+            "key": "'{str:P}' joined the spectators",
+            "value": "'{str:P}' 加入了旁观"
+        },
+        {
+            "key": "'{str:P}' joined the blueteam",
+            "value": "'{str:P}' 加入了蓝队"
+        },
+        {
+            "key": "'{str:P}' joined the redteam",
+            "value": "'{str:P}' 加入了红队"
+        },
+        {
+            "key": "'{str:P}' joined the game",
+            "value": "'{str:P}' 加入了游戏"
+        },
+        {
+            "key": "Wave {int:a} started with {int:a1} Zombies!",
+            "value": "[第 {int:a} 轮]迎来 {int:a1} 只僵尸！"
+        },
+        {
+            "key": "Wave {int:a}: {int:a1} zombies are left",
+            "value": "[第 {int:a} 轮]:还剩 {int:a1} 只僵尸"
+        },
+        {
+            "key": "Wave {int:i}: 1 zombie is left",
+            "value": "[第 {int:i} 轮]:还剩 1 只僵尸"
+        },
+        {
+            "key": "You picked up Zombie's Heart",
+            "value": "你获得了僵尸之心"
+        },
+        {
+            "key": "You got 1 Log from the Zombie",
+            "value": "你从僵尸手上拿到 1 个木头"
+        },
+        {
+            "key": "\n\n\n\n\n\n\nHealth: {int:Health}/{int:MaxHealth}",
+            "value": "\n\n\n\n\n\n\n主塔血量: {int:Health}/{int:MaxHealth}"
+        },
+        {
+            "key": "{int:Health} left. Keep hit!",
+            "value": "还需要挖 {int:Health} 下。按住锤击键！"
+        },
+        {
+            "key": "You don't have a good pickaxe for Diamond",
+            "value": "你没有一把能够挖钻石的镐子！"
+        },
+        {
+            "key": "Make a Gold pickaxe first.",
+            "value": "请先去造一把金镐子！"
+        },
+        {
+            "key": "You need Diamond pickaxe for pick Enegry!",
+            "value": "你需要一把钻石镐来挖能量！"
+        },
+        {
+            "key": "The main tower is under attacked!",
+            "value": "主塔正在被攻击！"
+        },
+        {
+            "key": "Only {int:Health} lifes left!",
+            "value": "主塔只剩下{int:Health}血了！"
+        },
+        {
+            "key": "Only HALF health left!!",
+            "value": "主塔只剩一半的血量了！！"
+        },
+        {
+            "key": "{int:Health} health left!",
+            "value": "主塔还剩{int:Health}血"
+        },
+        {
+            "key": "!!!Only 1 health left!!!",
+            "value": "!!!主塔只剩下1滴血!!!"
+        },
+        {
+            "key": "You got 1 Copper from the Zombie",
+            "value": "你从僵尸手上拿到 1 个铜矿"
+        },
+        {
+            "key": "Defense Zombies, dont let them touch you base.",
+            "value": "防御僵尸，别让他们碰到你的基地"
+        },
+        {
+            "key": "If you team's Tower no health left, you lose.",
+            "value": "如果主塔血量为0，你就输了"
+        },
+        {
+            "key": "Don't try complete all wave, be cause it's Infinite!.",
+            "value": "不要尝试打通全部回合，因为他是无限的！"
+        },
+        {
+            "key": "Zombies made by AssassinTee.",
+            "value": "AssassinTee制作了全部僵尸"
+        },
+        {
+            "key": "In the map have many 'CKs'.",
+            "value": "地图中有许多的'CK'"
+        },
+        {
+            "key": "The 'heart' is 'CK' log",
+            "value": "样子是血的是CK木头"
+        },
+        {
+            "key": "Others I have point at map.",
+            "value": "其他的CK我有标记在地图中"
+        },
+        {
+            "key": "Just find them then check!",
+            "value": "你就干脆走过去看看呗！"
+        },
+        {
+            "key": "You can make tools in Vote, check them.",
+            "value": "你可以在投票里制作工具"
+        },
+        {
+            "key": "{str:modname} {str:version} by {str:author}",
+            "value": "模式 {str:modname}{str:version} 作者：{str:author}"
+        },
+        {
+            "key": "Credits: {str:c}",
+            "value": "想法：{str:c}"
+        },
+        {
+            "key": "Thanks to: {str:t}",
+            "value": "感谢：{str:t}"
+        },
+        {
+            "key": "Sources: {str:s}",
+            "value": "源码：{str:s}"
+        },
+        {
+            "key": "Log: {int:Log}, Copper: {int:Copper}, Coal: {int:Coal},",
+            "value": "木头：{int:Log}, 铜矿: {int:Copper}, 煤炭: {int:Coal},"
+        },
+        {
+            "key": "Iron: {int:Iron}, Gold: {int:Gold}, Diamond: {int:Diamond},",
+            "value": "铁矿: {int:Iron}, 金矿: {int:Gold}, 钻石: {int:Diamond},"
+        },
+        {
+            "key": "Enegry: {int:Enegry}, Zombie's Heart: {int:ZombieHeart}",
+            "value": "能量: {int:Enegry}, 僵尸之心: {int:ZombieHeart}"
+        },
+        {
+            "key": "Nice! U entered to DEVELOPER MODE",
+            "value": "你真牛逼，你比泰森都牛逼。"
+        },
+        {
+            "key": "Wrong password!",
+            "value": "密码错误"
+        },
+        {
+            "key": "If you want get the password, ASK Server hoster",
+            "value": "如果你想要获得密码，请询问服主"
+        },
+        {
+            "key": "At least 4 players are required to start the game.",
+            "value": "至少4个玩家在线才可以开始游戏"
+        },
+        {
+            "key": "Bad luck. The production failed...",
+            "value": "xswl，笨手笨脚的这都做不出来。"
+        },
+        {
+            "key": "You picked up a Log",
+            "value": "你砍下了一块木头"
+        },
+        {
+            "key": "You picked up a Coal",
+            "value": "你挖到了一块煤炭"
+        },
+        {
+            "key": "You picked up a Copper",
+            "value": "你挖到了一块铜锭"
+        },
+        {
+            "key": "You picked up a Iron",
+            "value": "你挖到了一块铜锭"
+        },
+        {
+            "key": "You picked up a Gold",
+            "value": "你挖到了一块金锭"
+        },
+        {
+            "key": "You picked up a Diamond",
+            "value": "你挖到了一块钻石"
+        },
+        {
+            "key": "You picked up a Enegry",
+            "value": "你加载了一点能量，可惜你**目前**只能用他制作物品..."
+        },
+        {
+            "key": "{int:num} log,",
+            "value": "{int:num}块木头, "
+        },
+        {
+            "key": "{int:num} coal,",
+            "value": "{int:num}块煤炭, "
+        },
+        {
+            "key": "{int:num} copper,",
+            "value": "{int:num}块铜锭, "
+        },
+        {
+            "key": "{int:num} iron,",
+            "value": "{int:num}块铁锭, "
+        },
+        {
+            "key": "{int:num} gold,",
+            "value": "{int:num}块金锭, "
+        },
+        {
+            "key": "{int:num} diamond,",
+            "value": "{int:num}块钻石, "
+        },
+        {
+            "key": "{int:num} enegry,",
+            "value": "{int:num}点能量, "
+        },
+        {
+            "key": "You lost ",
+            "value": "你失去了"
+        },
+        {
+            "key": "Bad luck.",
+            "value": "倒霉悲催的。（笑死我啦哈哈哈哈"
+        },
+        {
+            "key": "No such item.",
+            "value": "没有这个物品（？？？"
+        },
+        {
+            "key": "You made a {str:ItemName}! Good Job!",
+            "value": "你制造了{str:ItemName}! 真牛逼！"
+        },
+        {
+            "key": "But you don't have them.",
+            "value": "但是你没有！哈哈哈"
+        },
+        {
+            "key": "You need at least ",
+            "value": "你需要至少"
+        },
+        {
+            "key": "wooden sword",
+            "value": "木剑"
+        },
+        {
+            "key": "wooden axe",
+            "value": "木斧"
+        },
+        {
+            "key": "wooden pickaxe",
+            "value": "木镐"
+        },
+        {
+            "key": "copper axe",
+            "value": "铜斧"
+        },
+        {
+            "key": "copper pickaxe",
+            "value": "铜镐"
+        },
+        {
+            "key": "iron sword",
+            "value": "铁剑"
+        },
+        {
+            "key": "iron axe",
+            "value": "铁斧"
+        },
+        {
+            "key": "iron pickaxe",
+            "value": "铁镐"
+        },
+        {
+            "key": "gold sword",
+            "value": "金剑"
+        },
+        {
+            "key": "gold axe",
+            "value": "金斧"
+        },
+        {
+            "key": "gold pickaxe",
+            "value": "金镐"
+        },
+        {
+            "key": "diamond sword",
+            "value": "钻石剑"
+        },
+        {
+            "key": "diamond axe",
+            "value": "钻石斧"
+        },
+        {
+            "key": "diamond pickaxe",
+            "value": "钻石镐"
+        },
+        {
+            "key": "enegry sword",
+            "value": "能量剑"
+        },
+        {
+            "key": "enegry pickaxe",
+            "value": "能量镐"
+        },
+        {
+            "key": "gun turret",
+            "value": "手枪炮塔"
+        },        
+        {
+            "key": "shotgun turret",
+            "value": "散弹枪炮塔"
+        },
+        
+        {
+            "key": "follow grenade turret",
+            "value": "跟踪榴弹炮塔"
+        },        
+        {
+            "key": "laser turret",
+            "value": "激光炮塔"
+        },        
+        {
+            "key": "shotgun2077 turret",
+            "value": "{[散弹|2077]}炮塔"
+        },
+        
+        {
+            "key": "laser2077 turret",
+            "value": "{[激光|2077]}炮塔"
+        },        
+        {
+            "key": "freeze gun turret",
+            "value": "冰冻枪炮塔"
+        },        
+        {
+            "key": "space",
+            "value": "空"
+        }
+    ]
+}
